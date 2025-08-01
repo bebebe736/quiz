@@ -78,7 +78,7 @@ container_start.style.display='flex'
 container_h3.innerHTML=`Ви дали ${correct_ansver_given} правильних
 відповідей із ${total_ansver_given}
 Точність - ${Math.round(correct_ansver_given*100/total_ansver_given)} %`
-}, 10000)
+}, 100000)
  })
 
 
